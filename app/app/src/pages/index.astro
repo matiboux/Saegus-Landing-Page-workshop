@@ -1,0 +1,608 @@
+---
+import Layout from '~/layouts/Layout.astro'
+import saegusLogo from '~/assets/saegus.svg?raw'
+---
+
+<Layout title="Index">
+
+	<header class="header">
+		<div class="left">
+			<div class="logo">
+				<Fragment set:html={saegusLogo} />
+			</div>
+			<div class="brand-name">
+				<h1>Sægus</h1>
+			</div>
+		</div>
+		<div class="right">
+			<div class="user">
+				<div class="avatar">
+					<img src="https://avatars.githubusercontent.com/u/1024025?v=4" alt="Avatar" />
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="wrapper">
+		<div class="sidebar">
+			<div class="menu menu-top">
+				<ul>
+					<li class="active">
+						<a href="#">Homepage</a>
+					</li>
+					<li>
+						<a href="#">Category 1</a>
+						<ul>
+							<li>
+								<a href="#">Page 1</a>
+							</li>
+							<li>
+								<a href="#">Page 2</a>
+							</li>
+							<li>
+								<a href="#">Page 3</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Category 2</a>
+						<ul>
+							<li>
+								<a href="#">Page 1</a>
+							</li>
+							<li>
+								<a href="#">Page 2</a>
+							</li>
+							<li>
+								<a href="#">Page 3</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="menu menu-bottom">
+				<ul>
+					<li>
+						<a href="#">Settings</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<main class="main">
+			<h2>Hi Eric, how are you today?</h2>
+
+			<div class="grid">
+				<div class="project">
+					<div class="title">
+						<h3>Project 1</h3>
+					</div>
+					<div class="table">
+						<div class="table-header">
+							<div class="table-cell">
+								<p>User story</p>
+							</div>
+							<div class="table-cell">
+								<p>Status</p>
+							</div>
+							<div class="table-cell">
+								<p>Due date</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-success">
+									<p>Finished</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>11 / 12 / 2023</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-warning">
+									<p>Needs your action</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>13 / 12 / 2023</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-danger">
+									<p>Blocked</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>15 / 12 / 2023</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project">
+					<div class="title">
+						<h3>Project 2</h3>
+					</div>
+					<div class="table">
+						<div class="table-header">
+							<div class="table-cell">
+								<p>User story</p>
+							</div>
+							<div class="table-cell">
+								<p>Status</p>
+							</div>
+							<div class="table-cell">
+								<p>Due date</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-success">
+									<p>Finished</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>11 / 12 / 2023</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-warning">
+									<p>Needs your action</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>13 / 12 / 2023</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-danger">
+									<p>Blocked</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>15 / 12 / 2023</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project">
+					<div class="title">
+						<h3>Project 3</h3>
+					</div>
+					<div class="table">
+						<div class="table-header">
+							<div class="table-cell">
+								<p>User story</p>
+							</div>
+							<div class="table-cell">
+								<p>Status</p>
+							</div>
+							<div class="table-cell">
+								<p>Due date</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-success">
+									<p>Finished</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>11 / 12 / 2023</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-warning">
+									<p>Needs your action</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>13 / 12 / 2023</p>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="table-cell">
+								<p>Name</p>
+							</div>
+							<div class="table-cell">
+								<div class="badge badge-danger">
+									<p>Blocked</p>
+								</div>
+							</div>
+							<div class="table-cell">
+								<p>15 / 12 / 2023</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="agenda">
+					<h3>Today's agenda</h3>
+					<div class="agenda-grid">
+						<div class="times">
+							<div class="time" style="grid-row: 1; grid-column: 1;">
+								<div>9h</div>
+							</div>
+							<div class="time" style="grid-row: 3; grid-column: 1;">
+								<div>10h</div>
+							</div>
+							<div class="time" style="grid-row: 5; grid-column: 1;">
+								<div>11h</div>
+							</div>
+							<div class="time" style="grid-row: 7; grid-column: 1;">
+								<div>12h</div>
+							</div>
+							<div class="time" style="grid-row: 9; grid-column: 1;">
+								<div>13h</div>
+							</div>
+							<div class="time" style="grid-row: 11; grid-column: 1;">
+								<div>14h</div>
+							</div>
+							<div class="time" style="grid-row: 13; grid-column: 1;">
+								<div>15h</div>
+							</div>
+							<div class="time" style="grid-row: 15; grid-column: 1;">
+								<div>16h</div>
+							</div>
+							<div class="time" style="grid-row: 17; grid-column: 1;">
+								<div>17h</div>
+							</div>
+							<div class="time" style="grid-row: 19; grid-column: 1;">
+								<div>18h</div>
+							</div>
+							<div class="time" style="grid-row: 21; grid-column: 1;">
+								<div>19h</div>
+							</div>
+						</div>
+						<div class="items-background"></div>
+						<div class="items">
+							<div class="item" style="grid-row: 2 / 5; grid-column: 2;">
+								<div class="title">
+									<h4>Design</h4>
+								</div>
+							</div>
+							<div class="item" style="grid-row: 5 / 7; grid-column: 2;">
+								<div class="title">
+									<h4>Workshop</h4>
+								</div>
+							</div>
+							<div class="item" style="grid-row: 5 / 7; grid-column: 2;">
+								<div class="title">
+									<h4>Workshop</h4>
+								</div>
+							</div>
+							<div class="item" style="grid-row: 10 / 13; grid-column: 2;">
+								<div class="title">
+									<h4>Review</h4>
+								</div>
+							</div>
+							<div class="item" style="grid-row: 14 / 17; grid-column: 2;">
+								<div class="title">
+									<h4>Weekly</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+</Layout>
+
+<style lang="scss">
+	@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+	:global(body) {
+		background: #fff;
+		color: #000;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: calc(80px - 16px);
+		padding: 8px 40px 8px 40px;
+		border-bottom: 1px solid #cdcdcd;
+
+		.left {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.logo {
+				width: 2rem;
+				height: 2rem;
+				margin-right: 1rem;
+			}
+
+			.brand-name {
+				h1 {
+					font-family: 'Raleway', sans-serif;
+					font-size: 1.5rem;
+					font-weight: 700;
+				}
+			}
+		}
+
+		.right {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.user {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.avatar {
+					width: 2rem;
+					height: 2rem;
+					margin-right: 1rem;
+					border-radius: 50%;
+					overflow: hidden;
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+			}
+		}
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+		height: calc(100vh - 80px);
+	}
+
+	.sidebar {
+		background: #f5f5f5;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 40px;
+		width: 100%;
+		max-width: calc(300px - 2 * 72px);
+		height: calc(100% - 80px - 64px);
+		padding: 80px 72px 64px 72px;
+		border-right: 1px solid #cdcdcd;
+		overflow-y: auto;
+
+		.menu {
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+
+				li {
+					color: #000;
+
+					+ li {
+						margin-top: 8px;
+					}
+
+					a {
+						display: block;
+						padding: 1rem;
+						text-decoration: none;
+						color: inherit;
+						transition: all 0.2s ease-in-out;
+						border: 1px solid transparent;
+						border-radius: 8px;
+					}
+
+					&.active a, a:hover {
+						background: #cdcdcd0f;
+						border: 1px solid #cdcdcd;
+					}
+
+					ul {
+						margin-top: 8px;
+						padding-left: 40px;
+
+						li {
+							a {
+								padding: 0.5rem 1rem;
+								transition: all 0.2s ease-in-out;
+							}
+						}
+					}
+				}
+			}
+
+			> ul {
+				> li {
+					color: #5723F3;
+
+					+ li {
+						margin-top: 40px;
+					}
+
+					&.active > a, > a:hover {
+						background: #5723f30f;
+						border: 1px solid #5723F3;
+					}
+				}
+			}
+		}
+	}
+
+	.main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		height: calc(100% - 2 * 40px);
+		padding: 40px;
+
+		h2 {
+			margin: 0;
+			font-size: 1.5rem;
+			font-weight: 300;
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 40px;
+
+			.project {
+				background: #5723f30f;
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				padding: 1rem;
+				border-radius: 4px;
+
+				.title {
+					h3 {
+						color: #5723F3;
+						font-size: 1.25rem;
+						font-weight: 300;
+					}
+				}
+
+				.table {
+					background: #fff;
+					display: grid;
+					grid-template-columns: 1fr 1fr 1fr;
+					grid-gap: 10px;
+					padding: 10px;
+					text-align: center;
+
+					.table-header, .table-row {
+						display: contents;
+						grid-template-columns: 1fr 1fr 1fr;
+						grid-gap: 10px;
+						padding: 10px;
+					}
+
+					.table-header {
+						color: #5723F3;
+						font-size: 1.25em;
+						font-weight: 300;
+					}
+				}
+
+				.badge {
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					padding: 0.2rem 0.5rem;
+					border-radius: 8px;
+
+					p {
+						font-size: 0.75rem;
+					}
+
+					&-success {
+						background: #2BC44340;
+					}
+
+					&-warning {
+						background: #FFB80040;
+					}
+
+					&-danger {
+						background: #C42B2B40;
+					}
+				}
+			}
+
+			.agenda {
+				background: #5723f30f;
+				grid-row: 1 / 4;
+				grid-column: 2 / 3;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 20px;
+				padding: 3rem;
+				border-radius: 4px;
+
+				h3 {
+					color: #5723F3;
+					font-size: 1.5rem;
+					font-weight: 300;
+				}
+
+				.agenda-grid {
+					display: grid;
+					grid-template-columns: 40px 1fr;
+					grid-template-rows: repeat(22, 1fr);
+					column-gap: 10px;
+					row-gap: 5px;
+					width: 60%;
+					height: 100%;
+
+					.times, .items {
+						display: contents;
+					}
+
+					.time {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: #5723F3;
+					}
+
+					.items-background {
+						background: #fff;
+						grid-row: 1 / 23;
+						grid-column: 2 / 3;
+						border-radius: 8px;
+					}
+
+					.item {
+						background: #5723F3;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: #fff;
+						border-radius: 8px;
+
+						.title {
+							h4 {
+								font-size: 1rem;
+								font-weight: 300;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+</style>
