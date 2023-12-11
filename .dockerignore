@@ -1,0 +1,37 @@
+# -- Generic rules:
+
+# Files without extension
+*
+!*/
+!*.*
+
+# Environment files
+.env.local
+.env.*.local
+
+# Temporary files
+._*
+*~
+*.cache
+*.log*
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# -- Application rules:
+
+# Node.js
+node_modules/
+
+# Astro
+dist/
+.astro/
+
+# -- Specific to dockerignore:
+
+# Docker configuration files
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
